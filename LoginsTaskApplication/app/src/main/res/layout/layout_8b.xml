@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="#fff"
+              android:weightSum="9">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:orientation="horizontal"
+                  android:layout_marginTop="25dp"
+                  android:gravity="center"
+                  android:layout_weight="1"
+    >
+
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/circle_blue_for_8a"
+                   android:layout_gravity="center"
+
+
+        />
+
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/circle_purple_for_8a"
+                   android:layout_marginLeft="-14dp"
+                   android:layout_gravity="center"
+
+
+        />
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/w_for_8a"
+                   android:layout_marginLeft="-88dp"
+                   android:layout_gravity="center"
+
+
+        />
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/m_for_8a"
+                   android:layout_marginLeft="-8dp"
+                   android:layout_gravity="center"
+
+
+        />
+
+    </LinearLayout>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="SIGN IN"
+              android:textSize="17sp"
+              android:textColor="#444444"
+              android:layout_gravity="center"
+              android:layout_marginTop="20dp"
+              android:gravity="center"
+              android:textStyle="bold"
+              android:layout_weight="1"
+
+    />
+    <EditText android:layout_width="258dp"
+              android:layout_height="51dp"
+              android:layout_gravity="center"
+              android:gravity="center"
+              android:hint="John Doe"
+              android:textColorHint="#707070"
+              android:textColor="#707070"
+              android:textSize="17sp"
+              android:layout_marginTop="20dp"
+              android:background="@drawable/rectangle_shape"
+              android:layout_weight="1"
+
+
+    />
+    <EditText android:layout_width="258dp"
+              android:layout_height="51dp"
+              android:layout_gravity="center"
+              android:gravity="center"
+              android:hint="234-567-890-123"
+              android:textColorHint="#707070"
+              android:textColor="#707070"
+              android:inputType="number"
+              android:textSize="17sp"
+              android:layout_marginTop="10dp"
+              android:background="@drawable/rectangle_shape_for_8a_with_image"
+              android:layout_weight="1"
+
+
+    />
+
+    <EditText android:layout_width="258dp"
+              android:layout_height="51dp"
+              android:layout_gravity="center"
+              android:gravity="center"
+              android:hint="johndoe@gmail.com"
+              android:textColorHint="#707070"
+              android:textColor="#707070"
+              android:inputType="textEmailAddress"
+              android:textSize="17sp"
+              android:layout_marginTop="10dp"
+              android:background="@drawable/rectangle_shape"
+              android:layout_weight="1"
+
+
+    />
+    <EditText android:layout_width="258dp"
+              android:layout_height="51dp"
+              android:layout_gravity="center"
+              android:gravity="center"
+              android:hint="password"
+              android:textColorHint="#707070"
+              android:textColor="#707070"
+              android:inputType="textPassword"
+              android:textSize="17sp"
+              android:layout_marginTop="10dp"
+              android:background="@drawable/rectangle_shape"
+              android:layout_weight="1"
+
+
+    />
+    <Button android:layout_width="258dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_for_8a"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="PROCEED"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:textSize="17sp"
+            android:layout_weight="1"
+
+    />
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="or"
+              android:textSize="17sp"
+              android:textColor="#444444"
+              android:layout_gravity="center"
+              android:layout_marginTop="15dp"
+              android:gravity="center"
+              android:layout_weight="1"
+
+    />
+
+    <LinearLayout android:layout_width="258dp"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_gravity="center"
+                  android:weightSum="3"
+                  android:layout_marginTop="15dp"
+                  android:layout_weight="1"
+
+    >
+
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/facebook_icon_for_8a"
+                   android:layout_weight="1"
+        />
+
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/twitter_icon_for_8a"
+                   android:layout_weight="1"
+        />
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/google_icon_for_8a"
+                   android:layout_weight="1"
+        />
+
+    </LinearLayout>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Existing User? Sign In"
+              android:textSize="17sp"
+              android:textColor="#4daaff"
+              android:layout_gravity="center"
+              android:layout_marginTop="15dp"
+              android:gravity="center"
+              android:layout_weight="1"
+
+    />
+
+
+</LinearLayout>

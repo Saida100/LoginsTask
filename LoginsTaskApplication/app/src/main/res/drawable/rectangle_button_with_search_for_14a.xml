@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <size android:height="72dp"
+                  android:width="280dp">
+
+            </size>
+
+
+            <solid android:color="#5e239d">
+
+            </solid>
+
+        </shape>
+    </item>
+    <item android:drawable="@drawable/image_search_gor_14a_b"
+          android:left="10dp"
+          android:bottom="30dp"
+          android:top="30dp"
+          android:right="100dp"
+          android:height="19dp"
+          android:width="18dp">
+
+    </item>
+
+</layer-list>

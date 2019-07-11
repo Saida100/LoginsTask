@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Gray shadow. -->
+    <item
+            android:left="10dp"
+            android:top="10dp">
+        <shape>
+            <solid android:color="#ebebeb" />
+        </shape>
+    </item>
+
+    <!-- purple foreground.  -->
+    <item
+            android:bottom="5dp"
+            android:right="10dp">
+        <shape>
+            <solid android:color="#ff1cf7" />
+        </shape>
+    </item>
+
+
+    <item>
+        <shape android:shape="rectangle">
+
+            <size android:width="239dp"
+                  android:height="60dp">
+            </size>
+
+        </shape>
+    </item>
+    <item android:top="20dp"
+          android:bottom="20dp"
+          android:left="105dp"
+          android:right="105dp"
+          android:height="21dp"
+          android:width="22dp"
+
+            android:drawable="@drawable/paper_for_11a" >
+
+
+
+    </item>
+</layer-list>

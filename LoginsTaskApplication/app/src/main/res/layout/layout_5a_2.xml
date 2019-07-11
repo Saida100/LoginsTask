@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ed1960"
+              android:layout_gravity="center"
+              android:weightSum="4"
+>
+
+    <ImageView android:layout_width="510dp"
+               android:layout_height="wrap_content"
+               android:src="@drawable/image_for_5a"
+               android:layout_gravity="top"
+               android:scaleType="centerCrop"
+               android:layout_marginTop="-30dp"
+               android:layout_weight="1"
+
+    />
+
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_weight="2"
+                  android:layout_gravity="center_horizontal"
+                  android:gravity="center"
+    >
+
+
+        <EditText android:layout_width="299dp"
+                  android:layout_height="74dp"
+                  android:layout_gravity="center"
+                  android:hint="johndoe "
+                  android:textColor="#fff"
+                  android:textColorHint="#fff"
+                  android:textSize="16sp"
+                  android:background="@drawable/rectangle_editext_with_person_for_5a"
+                  android:paddingLeft="45dp"
+                  android:gravity="center_vertical"
+
+
+        />
+        <EditText android:layout_width="299dp"
+                  android:layout_height="74dp"
+                  android:layout_gravity="center"
+                  android:hint="johndoe "
+                  android:textColor="#fff"
+                  android:textColorHint="#fff"
+                  android:textSize="16sp"
+                  android:background="@drawable/rectangle_editext_with_person_for_5a"
+                  android:paddingLeft="45dp"
+                  android:gravity="center_vertical"
+
+
+        />
+        <EditText android:layout_width="299dp"
+                  android:layout_height="74dp"
+                  android:layout_gravity="center"
+                  android:hint="johndoe "
+                  android:textColor="#fff"
+                  android:textColorHint="#fff"
+                  android:textSize="16sp"
+                  android:paddingLeft="45dp"
+                  android:background="@drawable/rectangle_editext_with_password_for_5a"
+                  android:gravity="center_vertical"
+
+
+        />
+        <Button android:layout_width="299dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:background="#ed1960"
+                android:text="SEND"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:layout_marginTop="40dp"
+
+        />
+    </LinearLayout>
+
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:weightSum="2"
+                  android:layout_weight="1"
+                  android:layout_marginBottom="20dp">
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="#fff"
+                  android:layout_weight="1"
+                  android:text="SIGN In"
+                  android:paddingLeft="30dp"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="#fff"
+                  android:layout_weight="1"
+                  android:text="SIGN OUT"
+                  android:paddingRight="30dp"
+                  android:gravity="right"
+        />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="#c1fff0"
+              android:layout_gravity="center"
+              android:weightSum="6"
+
+>
+
+    <ImageView android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/image_for_14a_b"
+               android:layout_gravity="center"
+               android:layout_marginTop="20dp"
+               android:layout_weight="1"
+    />
+
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_gravity="center"
+                  android:gravity="center">
+
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/little_rectangle_for_14b"
+                   android:layout_gravity="center"
+                   android:background="@drawable/ic_arrow_for_14a_b_24dp"
+                   android:paddingRight="6dp"
+        />
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:text="SIGN UP"
+                  android:textColor="#5e239d"
+                  android:textSize="20sp"
+                  android:textStyle="bold"
+
+        />
+
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_gravity="center"
+                  android:gravity="center"
+                  android:layout_weight="2"
+
+    >
+        <EditText android:layout_width="280dp"
+                  android:layout_height="72dp"
+                  android:background="@drawable/rectangle_button_with_email_for_14a"
+                  android:layout_gravity="center"
+                  android:layout_marginTop="30dp"
+                  android:paddingLeft="40dp"
+                  android:hint="johndoe2018@gmail.com"
+                  android:textColor="#fff"
+                  android:textColorHint="#fff"
+        />
+        <EditText android:layout_width="280dp"
+                  android:layout_height="72dp"
+                  android:background="@drawable/rectangle_button_with_telephone_for_14a"
+                  android:layout_gravity="center"
+                  android:layout_marginTop="4dp"
+                  android:hint="123-456-789-012"
+                  android:textColor="#fff"
+                  android:textColorHint="#fff"
+                  android:inputType="number"
+                  android:paddingLeft="40dp"
+        />
+        <EditText android:layout_width="280dp"
+                  android:layout_height="72dp"
+                  android:background="@drawable/rectangle_button_with_search_for_14a"
+                  android:layout_gravity="center"
+                  android:layout_marginTop="4dp"
+                  android:inputType="textPassword"
+                  android:hint="password"
+                  android:textColorHint="#fff"
+                  android:textColor="#fff"
+                  android:paddingLeft="40dp"/>
+        <Button android:layout_width="280dp"
+                android:layout_height="72dp"
+                android:background="@drawable/rectangle_stroke_for_14a_b"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#5e239d"
+                android:text="GET STARTED"
+                android:textSize="17sp"
+        />
+
+    </LinearLayout>
+
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:text="Sign In existing profile"
+              android:paddingLeft="20dp"
+              android:gravity="center"
+              android:layout_gravity="center"
+              android:textColor="#5e239d"
+
+    />
+
+
+</LinearLayout>

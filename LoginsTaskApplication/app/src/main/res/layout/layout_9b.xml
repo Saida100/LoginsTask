@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:layout_gravity="center"
+              android:gravity="center"
+
+>
+
+
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:src="@drawable/salad"
+               android:layout_gravity="center"
+               android:scaleType="fitXY"
+    />
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:gravity="center"
+                  android:layout_marginTop="30dp"
+                  android:weightSum="8">
+
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/image_for_9a_9b"
+                   android:layout_gravity="top|center"
+                   android:layout_marginTop="25dp"
+                   android:layout_weight="1"
+        />
+
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="CHEF CLUB"
+                  android:layout_gravity="center"
+                  android:gravity="center"
+                  android:textColor="#fff"
+                  android:textSize="16sp"
+                  android:textStyle="bold"
+                  android:layout_marginTop="15dp"
+                  android:layout_weight="1"
+        />
+
+        <EditText android:layout_width="254dp"
+                  android:layout_height="45dp"
+                  android:hint="Username"
+                  android:textColorHint="#fff"
+                  android:textColor="#fff"
+                  android:layout_gravity="center"
+                  android:paddingLeft="40dp"
+                  android:background="@drawable/rectangle_shape_for_9a_9b"
+                  android:layout_marginTop="20dp"
+                  android:layout_weight="1"
+
+        />
+        <EditText android:layout_width="254dp"
+                  android:layout_height="45dp"
+                  android:background="@drawable/rectangle_shape_for_9a_9b"
+                  android:layout_marginTop="10dp"
+                  android:inputType="textPassword"
+                  android:hint="password"
+                  android:textColorHint="#ffffff"
+                  android:textColor="#ffffff"
+                  android:layout_gravity="center"
+                  android:paddingLeft="40dp"
+                  android:layout_weight="1"
+
+
+        />
+        <EditText android:layout_width="254dp"
+                  android:layout_height="45dp"
+                  android:background="@drawable/rectangle_shape_for_9a_9b"
+                  android:layout_marginTop="10dp"
+                  android:inputType="textPassword"
+                  android:hint="password"
+                  android:textColorHint="#ffffff"
+                  android:textColor="#ffffff"
+                  android:layout_gravity="center"
+                  android:paddingLeft="40dp"
+                  android:layout_weight="1"
+
+
+        />
+        <Button android:layout_width="254dp"
+                android:layout_height="45dp"
+                android:background="@drawable/button_shape_9a_9b"
+                android:text="Crate account"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_weight="1"
+
+
+
+        />
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="#fff"
+                  android:text="Or create With"
+                  android:layout_marginTop="20dp"
+                  android:textStyle="bold"
+                  android:textSize="18sp"
+                  android:layout_weight="1"
+
+        />
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:weightSum="2"
+                      android:layout_marginTop="20dp"
+                      android:layout_weight="1"
+        >
+
+            <ImageButton android:layout_width="50dp"
+                         android:layout_height="30dp"
+                         android:layout_weight="1"
+                         android:background="@drawable/rectangle_shape_for_9a_9b"
+                         android:layout_marginLeft="30dp"
+                         android:layout_marginRight="15dp"
+                         android:src="@drawable/facebook_for_9a_9b"
+                         android:layout_gravity="center"
+            />
+            <ImageButton android:layout_width="50dp"
+                         android:layout_height="30dp"
+                         android:background="@drawable/rectangle_shape_9a_facebook"
+                         android:layout_weight="1"
+                         android:layout_marginRight="30dp"
+                         android:src="@drawable/instagram_24dp"
+                         android:layout_gravity="center"
+            />
+
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:weightSum="2"
+                      android:layout_marginBottom="20dp"
+                      android:layout_gravity="center"
+                      android:layout_marginTop="25dp"
+                      android:gravity="center"
+                      android:layout_weight="1"
+
+
+        >
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Already a member?"
+                      android:textColor="#fff"
+                      android:gravity="center"
+                      android:layout_gravity="center"
+                      android:layout_marginLeft="80dp"
+            />
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="#fff"
+                      android:gravity="center"
+                      android:text="Sign In"
+                      android:layout_gravity="center"
+                      android:layout_marginRight="80dp"
+
+
+
+
+            />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

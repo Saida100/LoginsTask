@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_centerInParent="true"
+
+
+
+
+
+>
+
+
+
+    <ImageView
+            android:id="@+id/redEliipse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/ellipse_for_2a_2b"
+            android:layout_marginTop="-150dp"
+
+
+    />
+
+
+    <ImageView
+            android:id="@+id/whiteCircle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_circle_for2b_2a"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+
+
+    />
+    <ImageView
+            android:id="@+id/crukid"
+            android:layout_width="88dp"
+            android:layout_height="41dp"
+            android:background="@drawable/crukid_for2a"
+            android:layout_alignBottom="@+id/whiteCircle"
+            android:layout_centerInParent="true"
+            android:layout_alignTop="@id/whiteCircle"
+
+
+    />
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@id/whiteCircle"
+                  android:orientation="vertical"
+                  android:background="@drawable/shadow3"
+                  android:layout_marginTop="50dp"
+                  android:layout_marginRight="30dp"
+                  android:layout_marginLeft="30dp"
+                  android:layout_centerInParent="true"
+                  android:id="@+id/verticlaLinear"
+    >
+
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/ic_group_add_24px"
+                   android:layout_gravity="center"
+                   android:layout_marginTop="30dp"
+        />
+
+        <EditText android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:background="@drawable/rectangle_shape_for_2b_2a"
+                  android:layout_gravity="center"
+                  android:layout_marginTop="20dp"
+                  android:hint="Username"
+                  android:textColorHint="#afafaf"
+                  android:gravity="center"
+
+
+        />
+        <EditText android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:background="@drawable/rectangle_shape_for_2b_2a"
+                  android:layout_gravity="center"
+                  android:layout_marginTop="20dp"
+                  android:hint="Password"
+                  android:textColorHint="#afafaf"
+                  android:gravity="center"
+                  android:inputType="textPassword"
+
+
+
+        />
+
+        <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_for_2b_2a"
+                android:layout_marginTop="20dp"
+                android:text="Sign In"
+                android:gravity="center"
+                android:textColor="#fff"
+
+
+
+        />
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Or Sign in with"
+                  android:layout_gravity="center"
+                  android:gravity="center"
+                  android:layout_marginTop="20dp"/>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:weightSum="3"
+                      android:layout_marginTop="30dp"
+                      android:layout_marginBottom="30dp">
+
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="center"
+                       android:src="@drawable/icon_facebook_for2a"
+                       android:layout_marginLeft="30dp"
+                       android:layout_marginRight="30dp"
+                       android:layout_weight="1"
+
+            />
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="center"
+                       android:src="@drawable/icon_twitter_for2a"
+                       android:layout_marginLeft="30dp"
+                       android:layout_marginRight="30dp"
+                       android:layout_weight="1"
+
+            />
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="center"
+                       android:src="@drawable/icon_google_for2a"
+                       android:layout_marginLeft="30dp"
+                       android:layout_marginRight="30dp"
+                       android:layout_weight="1"
+
+            />
+
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Don't Have an Account? Sign Up"
+              android:layout_gravity="center"
+              android:gravity="center"
+              android:layout_centerInParent="true"
+              android:layout_below="@+id/verticlaLinear"
+              android:layout_marginBottom="30dp"
+              android:layout_alignParentBottom="true"
+              android:textColor="#f76e62"
+    />
+
+
+</RelativeLayout>
+
